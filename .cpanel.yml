@@ -1,0 +1,6 @@
+---
+deployment:
+    tasks:
+    - export DEPLOYPATH=/home/jonagsld/repositories/portfolio
+    - source /home/jonagsld/nodevenv/repositories/portfolio/10/bin/activate && cd /home/jonagsld/repositories/portfolio
+    - /bin/npm run build
